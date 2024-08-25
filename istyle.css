@@ -1,0 +1,196 @@
+/* * {
+    text-shadow: 2px 3px 6px black;
+}
+ */
+
+
+/*
+
+img,
+body {
+    background-color: black;
+    border: #3bb2f5 solid 3px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+
+}
+
+header {
+    border: 2px solid #276ccc;
+    border-radius: 8px;
+    color: black;
+}
+
+header:hover {
+    transition: box-shadow 2s, color 2s;
+    box-shadow: 0 0.6rem 0.4rem rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+div {
+    border: 2px solid #276ccc;
+    border-radius: 4px;
+    color: black;
+    background-color: #004fc67c;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+div:hover {
+
+    transition: box-shadow 2s, color 2s;
+    box-shadow: 0 0.6rem 0.4rem rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+header {
+    background-color: #004fc67c;
+    padding: 2rem;
+   
+
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: grid;
+    margin: 0 auto;
+    width: 310px;
+    height: 200px;
+    box-shadow: 1px 4px 3px black;
+}
+
+img:hover {
+    transition: box-shadow 2s;
+    box-shadow: 0 0.6rem 0.4rem rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+nav {
+    background-color: #276ccc;
+    border-radius: 7px;
+    border: #5483ff solid;
+}
+
+a {
+    font-size: 2.5rem;
+    color: #000;
+    text-decoration: none;
+    margin-right: 8rem;
+    border-radius: 6px;
+
+}
+
+a:hover {
+    transition: box-shadow 2s, color 2s ease;
+    box-shadow: 0 0.6rem 0.4rem rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+*/
+
+
+body {
+    /* background-color: black; */
+    /* color: white; */
+    font-weight: bold;
+    text-align: center;
+    /* background-color: #bfbaba; */
+    background: linear-gradient(to right, #807572, #a7a19d);
+
+}
+
+/* nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .centrar {
+    color: black;
+    border: 2px solid;
+}  */
+
+.ImagenDeFondo {
+
+    background-image: url(ImagenDeFondo\ FILOSOFIA.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 6px
+}
+
+header {
+
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: #4d4647;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    font-size: 27px;
+}
+
+header {
+    margin: 15px;
+    padding: 2px;
+}
+
+h2 {
+
+    margin: 34px;
+    padding: 5px;
+}
+
+h3 {
+
+    font-size: 24px;
+
+}
+
+
+article {
+    background-color: #a79d9d;
+    font-size: 17px;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+img {
+    width: 19rem;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+
+ul {
+    /* Le quita las viñetas esas todas feas :> */
+    list-style-type: none;
+}
