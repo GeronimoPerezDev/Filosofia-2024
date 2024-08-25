@@ -99,6 +99,10 @@ a:hover {
 
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     /* background-color: black; */
@@ -107,28 +111,43 @@ body {
     text-align: center;
     /* background-color: #bfbaba; */
     background: linear-gradient(to right, #807572, #a7a19d);
-
+    /* cursor: url(Cursor.png), auto; */
+    /* cursor: url('Cursor.png'), auto; */
 }
 
-/* nav {
+nav {
+    background-color: #4d4647;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
+    margin: 16px;
+
 }
 
-nav .centrar {
-    color: black;
-    border: 2px solid;
-}  */
+a:hover {
+    color: #807572;
+    transition: color 2s;
+}
+
+
+.centrar {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
 .ImagenDeFondo {
 
-    background-image: url(ImagenDeFondo\ FILOSOFIA.jpg);
+    background-image: url(pixelcut-export.jpeg);
     width: 100%;
     height: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     background-position: center;
     object-fit: cover;
     border-radius: 6px
